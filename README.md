@@ -1,6 +1,10 @@
-# FrontendTemplate
 
-📃 Este proyecto es un template para proyectos Angular.
-✍ La versión implementada en este template es Angular 13.
+Este proyecto es un template para tus proyectos Angular!
 
-##Estructura
+
+# Estructura
+# App
+### Core
+### Modules
+### Shared
+# Assets
