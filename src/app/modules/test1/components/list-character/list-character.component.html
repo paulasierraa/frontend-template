@@ -1,0 +1,13 @@
+<p>list-character works!</p>
+<div class="row">
+    <div class="col-md-3"  *ngFor="let item of characterList;index as i">
+        <div class="card " style="width: 18rem;">
+            <img [src]="item.image" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text">{{item.species}}</p>
+                <a routerLink="/test2" class="btn btn-primary">Click for go test 2</a>
+            </div>
+        </div>
+    </div>
+</div>
