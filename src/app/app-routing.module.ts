@@ -2,14 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {
-    path: 'paciente',
-    loadChildren: () => import('./modules/paciente/paciente.module').then(m => m.PacienteModule)
-  },
-  {
-    path: 'paciente',
-    loadChildren: () => import('./modules/glosas/glosas.module').then(m => m.GlosasModule)
-  }];
+  { path: 'test1', loadChildren: () => import('./modules/test1/test1.module').then(m => m.Test1Module) },
+  { path: 'test1', loadChildren: () => import('./modules/test2/test2.module').then(m => m.Test2Module) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
